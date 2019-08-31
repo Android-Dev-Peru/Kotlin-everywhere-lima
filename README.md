@@ -1,4 +1,4 @@
-# EventsGDGCali Template
+# EventsGDGLima Template
 
 Es una plantilla que la comunidad de @GDGLima modificó para el evento KotlinEverywhere que se llevó a cabo con otras comunidades de google para incentivar y apoyar el uso de Kotlin en los entornos en los que trabaja.
 
