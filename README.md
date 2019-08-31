@@ -17,4 +17,4 @@ Link del evento: [KotlinEverywhere Lima](https://kotlin.gdglima.com)
 
 ### Authors
 
-- Jonathan ChoyStiven Castillo [@jchoy8890](https://github.com/jchoy8890)
+- Jonathan Choy [@jchoy8890](https://github.com/jchoy8890)
