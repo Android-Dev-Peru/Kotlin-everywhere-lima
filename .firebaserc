@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "kotlin-gdg",
+    "kotlin.gdglima.com": "kotlin-gdg"
+  }
+}
