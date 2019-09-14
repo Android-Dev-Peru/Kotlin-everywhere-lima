@@ -30,6 +30,7 @@
       <link rel="stylesheet" href="css/xsIcon.css">
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/responsive.css">
+      <link rel="stylesheet" href="css/main.css">
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>
@@ -42,8 +43,8 @@
          <header id="header" class="header header-classic">
             <div class="container">
                <nav class="navbar navbar-expand-lg navbar-light">
-                  <a class="navbar-brand" href="index-2.html">
-                     <img src="images/gdg/gdglima2_logo.png" alt="GDG Lima">
+                  <a class="navbar-brand mx-auto" href="#">
+                     <img src="images/gdg/gdg_lima_background_white.png" id="banner_gdg_lima" alt="GDG Lima">
                   </a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                   aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,6 +57,9 @@
                         </li>
                         <li class="nav-item">
                            <a href="#speakers">Speakers</a>
+                        </li>
+                        <li class="nav-item">
+                           <a href="#programa">Programa</a>
                         </li>
                         <li class="nav-item">
                            <a href="#sponsors">Patrocinadores</a>
@@ -152,8 +156,8 @@
                               </div>
                               <div class="ts-speaker-info">
                                  <h3 class="ts-title"><a href="#">Cristian Fabian Gomez</a></h3>
-                                 <p>
-                                    Cristian Fabian Gomez
+                                 <span>Matter Supply</span><br>
+                                 <span>Google Developer Expert Android</span>
                                  </p>
                               </div>
                            </div>
@@ -167,13 +171,20 @@
                                  <div class="col-lg-6">
                                     <div class="ts-speaker-popup-content">
                                        <h3 class="ts-title">Cristian Fabian Gomez</h3>
-                                       <span class="speakder-designation">Cristian Fabian Gomez</span>
-                                       <p>
+                                       <span class="speakder-designation" style="color: #69D6F7; font-size: 18px"><b>Matter Supply | Google Developer Expert Android</b></span>
+                                       <p class="speakder-designation" style="text-align: justify;">
                                           Desarrollador de software, actualmente enfocado en el desarrollo para apps y librerías. Activo en las comunidades Android de Colombia, principalmente como co-organizador y charlista en @MedellinAndroid, un grupo de desarrolladores profesionales en "La ciudad de la eterna primavera". Co-organizador de Droids4Droids, conferencia especializada para desarrolladores Android, Charlista de conferencias como Droidcon (Polonia, Santo Domingo). Cristian ha ayudado a empresas a desarrollar una cultura de apoyo y continuo crecimiento en torno a la calidad del código. En su tiempo libre disfruta de la fotografía y tocar la guitarra.
+                                       </p>
+                                       <span class="speaker-session-info">
+                                          <h5 style="margin-top: 30px;">Kotlin Talk&nbsp;&nbsp;|&nbsp;&nbsp;Auditorio&nbsp;&nbsp;|&nbsp;&nbsp;12:40 PM - 01:30 PM</h5>
+                                          <p><b>FP para no-Batos</b></p>
+                                       </span>
+                                       <p class="speakder-designation">
+                                          La programación funcional la vivimos día a día, ahora que tal si la combinamos con estrategias para aprovecharla de una manera mas inteligente. En esta charla veremos el uso de tipos, funciones y estructuras que nos permitirán elaborar un caso de uso completo, todo usando Kotlin!
                                        </p>
                                        <div class="ts-speakers-social">
                                           <a href="https://www.linkedin.com/in/iyubinest/" target="_blank" ><i class="fa fa-linkedin"></i></a>
-                                          <a href="http://twitter.com/iyubinest" target="_blank" ><i class="fa fa-twitter"></i></a>                                          
+                                          <a href="http://twitter.com/iyubinest" target="_blank" ><i class="fa fa-twitter"></i></a>
                                           <a href="https://www.instagram.com/iyubinest/" target="_blank" ><i class="fa fa-instagram"></i></a>
                                           <a href="https://www.facebook.com/iyubinest" target="_blank" ><i class="fa fa-facebook"></i></a>
                                        </div>
@@ -192,9 +203,8 @@
                               </div>
                               <div class="ts-speaker-info">
                                  <h3 class="ts-title"><a href="#">Carlos Gabriel Ugaz</a></h3>
-                                 <p>
-                                    Carlos Gabriel Ugaz
-                                 </p>
+                                 <span>Android Developer</span><br>
+                                 <span>Organizador Firebase Perú</span>
                               </div>
                            </div>
                            <div id="popup_2" class="container ts-speaker-popup mfp-hide">
@@ -207,13 +217,20 @@
                                  <div class="col-lg-6">
                                     <div class="ts-speaker-popup-content">
                                        <h3 class="ts-title">Carlos Gabriel Ugaz</h3>
-                                       <span class="speakder-designation">Carlos Gabriel Ugaz</span>
-                                       <p>
-                                          Bachiller en Ingeniería de Sistemas de la Universidad de Lima, organizador de Firebase Peru y desarrollador android con más de tres años de experiencia
+                                       <span class="speakder-designation" style="color: #69D6F7; font-size: 18px"><b><span>Organizador de Firebase Perú</span></b></span>
+                                       <p class="speakder-designation" style="text-align: justify;">
+                                          Hola, soy un desarrollador Android apasionado con más de 3 años de experiencia, y más de 1 año solo con Kotlin. Soy organizador de Firebase Perú donde también se comparte conocimiento para ayudar a la comunidad a utilizar esta herramienta.
+                                       </p>
+                                       <span class="speaker-session-info">
+                                          <h5 style="margin-top: 30px;">Kotlin Talk&nbsp;&nbsp;|&nbsp;&nbsp;Auditorio&nbsp;&nbsp;|&nbsp;&nbsp;09:40 AM - 10:30 AM</h5>
+                                          <p><b>Migrando a Gradle Kotlin DSL en Android</b></p>
+                                       </span>
+                                       <p class="speakder-designation">
+                                          Se mostrará el archivo Gradle de una aplicación Android con muchas dependencias como Kotlin, android material, androidx, firebase, etc y como estas se pueden agrupar usando Kotlin DSL para tener una aplicación más ordenada.
                                        </p>
                                        <div class="ts-speakers-social">
                                           <a href="https://www.linkedin.com/in/carlosgub/" target="_blank" ><i class="fa fa-linkedin"></i></a>
-                                          <a href="https://twitter.com/carlosgub" target="_blank" ><i class="fa fa-twitter"></i></a>                                          
+                                          <a href="https://twitter.com/carlosgub" target="_blank" ><i class="fa fa-twitter"></i></a>
                                           <a href="https://www.instagram.com/carlosgub/" target="_blank" ><i class="fa fa-instagram"></i></a>
                                           <a href="https://www.facebook.com/DilerxD" target="_blank" ><i class="fa fa-facebook"></i></a>
                                        </div>
@@ -222,40 +239,46 @@
                               </div>
                            </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="600ms">
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1000ms">
                            <div class="ts-speaker">
                               <div class="speaker-img">
-                                 <img class="img-fluid" src="images/speakers/marco_ramirez.png" alt="Cristian Gómez">
+                                 <img class="img-fluid" src="images/speakers/eddu_melendez.jpeg" alt="Eddu Melendez">
                                  <a href="#popup_3" class="view-speaker ts-image-popup" data-effect="mfp-zoom-in">
                                     <i class="icon icon-plus"></i>
                                  </a>
                               </div>
                               <div class="ts-speaker-info">
-                                 <h3 class="ts-title"><a href="#">Marco Antonio Ramirez</a></h3>
-                                 <p>
-                                    Marco Antonio Ramirez
-                                 </p>
+                                 <h3 class="ts-title"><a href="#">Eddú Meléndez</a></h3>
+                                 <span>Java Software Engineer</span><br>
+                                 <span>Open Source Contributor</span><br>
+                                 
                               </div>
                            </div>
                            <div id="popup_3" class="container ts-speaker-popup mfp-hide">
                               <div class="row">
                                  <div class="col-lg-6">
                                     <div class="ts-speaker-popup-img">
-                                       <img src="images/speakers/marco_ramirez.png" alt="Cristian Gómez">
+                                       <img src="images/speakers/eddu_melendez.jpeg" alt="Eddu Melendez">
                                     </div>
                                  </div>
                                  <div class="col-lg-6">
                                     <div class="ts-speaker-popup-content">
-                                       <h3 class="ts-title">Marco Antonio Ramirez</h3>
-                                       <span class="speakder-designation">Marco Antonio Ramirez</span>
-                                       <p>
-                                          Me gusta dedicarme como programador de softwatre
+                                       <h3 class="ts-title">Eddú Melendez Gonzales</h3>
+                                       <span class="speakder-designation" style="color: #69D6F7; font-size: 18px"><b><span>Java Software Enginner | Organizador de Peru JUG | Open Source Contributor</span></b></span>
+                                       <p class="speakder-designation" style="text-align: justify;">
+                                          Desarrollador Java en Perú y contribuye en el ecosistema de Spring y otros proyectos Open Source desde el 2015 y co-lidera comunidades de Java y Jenkins. Durante su tiempo libre, le gusta investigar sobre las nuevas tendencias y contribuir a proyectos Open Source.
+                                       </p>
+                                       <span class="speaker-session-info">
+                                          <h5 style="margin-top: 30px;">Kotlin Talk&nbsp;&nbsp;|&nbsp;&nbsp;Aula A802&nbsp;&nbsp;|&nbsp;&nbsp;12:40 PM - 01:30 PM</h5>
+                                          <p><b>Consumer Driven Contract Testing con Spring Cloud Contract</b></p>
+                                       </span>
+                                       <p class="speakder-designation">
+                                          En plena era de microservicios, escribir pruebas puede sonar sencillo ya que nos hacemos responsables de solo un dominio. Pero, en el mundo real, las pruebas de los microservicios pueden ser duras. En esta sesión, veremos como CDC Testing nos ayuda a mantener nuestros servicios trabajando juntos. Estaremos explorando el proyecto Spring Cloud Contract.
                                        </p>
                                        <div class="ts-speakers-social">
-                                          <a href="https://www.linkedin.com/in/bruno-aybar-guerrero-04401418/" target="_blank" ><i class="fa fa-linkedin"></i></a>
-                                          <a href="https://twitter.com/brunoaybarg" target="_blank" ><i class="fa fa-twitter"></i></a>                                          
-                                          <a href="https://www.instagram.com/brunoaybarg/" target="_blank" ><i class="fa fa-instagram"></i></a>
-                                          <a href="https://www.facebook.com/bruno.aybarguerrero" target="_blank" ><i class="fa fa-facebook"></i></a>
+                                          <a href="https://www.linkedin.com/in/eddumelendez/" target="_blank" ><i class="fa fa-linkedin"></i></a>
+                                          <a href="https://twitter.com/EdduMelendez" target="_blank" ><i class="fa fa-twitter"></i></a>
+                                          <a href="https://www.facebook.com/emelendezg" target="_blank" ><i class="fa fa-facebook"></i></a>
                                        </div>
                                     </div>
                                  </div>
@@ -273,7 +296,8 @@
                               <div class="ts-speaker-info">
                                  <h3 class="ts-title"><a href="#">Bruno Aybar</a></h3>
                                  <p>
-                                    Bruno Aybar
+                                    <span>Android Developer</span><br>
+                                    <span>Organizador Android Dev Perú</span>
                                  </p>
                               </div>
                            </div>
@@ -287,13 +311,21 @@
                                  <div class="col-lg-6">
                                     <div class="ts-speaker-popup-content">
                                        <h3 class="ts-title">Bruno Aybar</h3>
-                                       <span class="speakder-designation">Bruno Aybar</span>
-                                       <p>
+                                       <span class="speakder-designation" style="color: #69D6F7; font-size: 18px"><b>
+                                          <span>Android Developer | Organizador de Android Dev Perú</span></b></span>
+                                       <p class="speakder-designation" style="text-align: justify;">
                                           Software Engineer especializado en Android y iOS, con 5 años de experiencia desarrollando aplicaciones. A lo largo de los años, ha desarrollado múltiples aplicaciones de entretenimiento, educación, y enterprise.  Actualmente, su misión es fomentar Kotlin, sobretodo en las comunidades de  desarrollo Android. Co-organizador de Android Dev Perú.
+                                       </p>
+                                       <span class="speaker-session-info">
+                                          <h5 style="margin-top: 30px;">Kotlin Talk&nbsp;&nbsp;|&nbsp;&nbsp;Auditorio&nbsp;&nbsp;|&nbsp;&nbsp;10:40 AM - 11:30 AM</h5>
+                                          <p><b>Understanding Kotlin Type System</b></p>
+                                       </span>
+                                       <p class="speakder-designation">
+                                          Muchas de las funcionalidades de Kotlin parecen arte de magia, es por eso que es un lenguaje de programación sumamente atractivo. Sin embargo, muchas de esas cosas son posibles gracias a su poderoso sistema de tipado. En esta charla, aprenderemos cómo funciona, y cómo podemos aprovecharlo al máximo.
                                        </p>
                                        <div class="ts-speakers-social">
                                           <a href="https://www.linkedin.com/in/bruno-aybar-guerrero-04401418/" target="_blank" ><i class="fa fa-linkedin"></i></a>
-                                          <a href="https://twitter.com/brunoaybarg" target="_blank" ><i class="fa fa-twitter"></i></a>                                          
+                                          <a href="https://twitter.com/brunoaybarg" target="_blank" ><i class="fa fa-twitter"></i></a>
                                           <a href="https://www.instagram.com/brunoaybarg/" target="_blank" ><i class="fa fa-instagram"></i></a>
                                           <a href="https://www.facebook.com/bruno.aybarguerrero" target="_blank" ><i class="fa fa-facebook"></i></a>
                                        </div>
@@ -315,7 +347,8 @@
                               <div class="ts-speaker-info">
                                  <h3 class="ts-title"><a href="#">Hansy Schmitt</a></h3>
                                  <p>
-                                    Hansy Schmitt
+                                    <span>Android Developer</span><br>
+                                    <span>Organizador Flutter Perú</span>
                                  </p>
                               </div>
                            </div>
@@ -329,13 +362,21 @@
                                  <div class="col-lg-6">
                                     <div class="ts-speaker-popup-content">
                                        <h3 class="ts-title">Hansy Schmitt</h3>
-                                       <span class="speakder-designation">Lead Android Developer at Webcat LLC</span>
-                                       <p>
+                                       <span class="speakder-designation" style="color: #69D6F7; font-size: 18px"><b>
+                                          <span>Android Developer | Organizador de Flutter Perú</span></b></span>
+                                       <p class="speakder-designation" style="text-align: justify;">
                                           Desarrollador mobile con mas de 10 años de experiencia, Actualmente interesado en Flutter e interesado en kotlin y desarrollo nativo
+                                       </p>
+                                       <span class="speaker-session-info">
+                                          <h5 style="margin-top: 30px;">Kotlin Talk&nbsp;&nbsp;|&nbsp;&nbsp;Aula A802&nbsp;&nbsp;|&nbsp;&nbsp;10:40 AM - 11:30 PM</h5>
+                                          <p><b>Kotlin y git: Cliente git en Kotlin</b></p>
+                                       </span>
+                                       <p class="speakder-designation">
+                                          En esta presentación veremos como la sintaxis de kotlin nos ayudará a crear rapidamente un cliente git semifuncional .
                                        </p>
                                        <div class="ts-speakers-social">
                                           <a href="https://www.linkedin.com/in/hansy-schmitt-camacho-a152329/" target="_blank" ><i class="fa fa-linkedin"></i></a>
-                                          <a href="https://twitter.com/hackyhacksy" target="_blank" ><i class="fa fa-twitter"></i></a>                                          
+                                          <a href="https://twitter.com/hackyhacksy" target="_blank" ><i class="fa fa-twitter"></i></a>
                                           <a href="https://www.instagram.com/hacksy16/" target="_blank" ><i class="fa fa-instagram"></i></a>
                                           <a href="https://www.facebook.com/hansy.schmitt" target="_blank" ><i class="fa fa-facebook"></i></a>
                                        </div>
@@ -355,7 +396,8 @@
                               <div class="ts-speaker-info">
                                  <h3 class="ts-title"><a href="#">Jose Flavio Quispe</a></h3>
                                  <p>
-                                    Jose Flavio Quispe
+                                    <span>Android Developer</span><br>
+                                    <span>Organizador Android Dev Perú</span>
                                  </p>
                               </div>
                            </div>
@@ -368,10 +410,18 @@
                                  </div>
                                  <div class="col-lg-6">
                                     <div class="ts-speaker-popup-content">
-                                       <h3 class="ts-title">Jose Flavio Quispe</h3>
-                                       <span class="speakder-designation">Jose Flavio Quispe</span>
-                                       <p>
+                                     <h3 class="ts-title">José Flavio Quispe</h3>
+                                       <span class="speakder-designation" style="color: #69D6F7; font-size: 18px"><b>
+                                          <span>Android Developer | Organizador de Android Dev Perú</span></b></span>
+                                       <p class="speakder-designation" style="text-align: justify;">
                                           Software Engineer enfocado a plataformas móviles Android y iOS. Con mas de 3 años de experiencia, ha participado en diferentes proyectos relacionados a mobile, IoT y banca. Actualmente es co-organizador de la comunidad Android Dev Perú.
+                                       </p>
+                                       <span class="speaker-session-info">
+                                          <h5 style="margin-top: 30px;">Kotlin Talk&nbsp;&nbsp;|&nbsp;&nbsp;Aula A802&nbsp;&nbsp;|&nbsp;&nbsp;11:40 AM - 12:30 PM</h5>
+                                          <p><b>Inline functions</b></p>
+                                       </span>
+                                       <p class="speakder-designation">
+                                          Una base teórica de lo que son las funciones “inline” en Kotlin y repasando conceptos de expresiones lambda, funciones anónimas y como se ven las Inline Functions en bytecode decompilado.
                                        </p>
                                        <div class="ts-speakers-social">
                                           <a href="https://www.linkedin.com/in/jflavio1/" target="_blank" ><i class="fa fa-linkedin"></i></a>
@@ -395,7 +445,8 @@
                               <div class="ts-speaker-info">
                                  <h3 class="ts-title"><a href="#">Eduardo Medina Alfaro</a></h3>
                                  <p>
-                                    Eduardo Medina Alfaro
+                                    <span>Android Developer</span><br>
+                                    <span>Organizador Android Dev Perú</span>
                                  </p>
                               </div>
                            </div>
@@ -408,14 +459,22 @@
                                  </div>
                                  <div class="col-lg-6">
                                     <div class="ts-speaker-popup-content">
-                                       <h3 class="ts-title">Eduardo Medina Alfaro</h3>
-                                       <span class="speakder-designation">Eduardo Medina Alfaro</span>
-                                       <p>
-                                          Organizador Android Dev Peru, GDG Lima, Kotlin Peru
+                                     <h3 class="ts-title">Eduardo Medina</h3>
+                                       <span class="speakder-designation" style="color: #69D6F7; font-size: 18px"><b>
+                                          <span>Android Developer | Organizador de Android Dev Perú</span></b></span>
+                                       <p class="speakder-designation" style="text-align: justify;">
+                                          Software Engineer enfocado a plataformas móviles Android y iOS. Con mas de 3 años de experiencia, ha participado en diferentes proyectos relacionados a mobile, IoT y banca. Actualmente es co-organizador de la comunidad Android Dev Perú.
+                                       </p>
+                                       <span class="speaker-session-info">
+                                          <h5 style="margin-top: 30px;">Kotlin Talk&nbsp;&nbsp;|&nbsp;&nbsp;Aula A802&nbsp;&nbsp;|&nbsp;&nbsp;11:40 AM - 12:30 PM</h5>
+                                          <p><b>Inline functions</b></p>
+                                       </span>
+                                       <p class="speakder-designation">
+                                          Una base teórica de lo que son las funciones “inline” en Kotlin y repasando conceptos de expresiones lambda, funciones anónimas y como se ven las Inline Functions en bytecode decompilado.
                                        </p>
                                        <div class="ts-speakers-social">
                                           <a href="https://www.linkedin.com/in/emedinaa/" target="_blank" ><i class="fa fa-linkedin"></i></a>
-                                          <a href="https://twitter.com/eduardomedina" target="_blank" ><i class="fa fa-twitter"></i></a>                                          
+                                          <a href="https://twitter.com/eduardomedina" target="_blank" ><i class="fa fa-twitter"></i></a>
                                           <a href="https://www.instagram.com/emedinaa13/" target="_blank" ><i class="fa fa-instagram"></i></a>
                                           <a href="https://www.facebook.com/eduardo.jose.medina.alfaro" target="_blank" ><i class="fa fa-facebook"></i></a>
                                        </div>
@@ -455,7 +514,7 @@
                                        </p>
                                        <div class="ts-speakers-social">
                                           <a href="https://www.linkedin.com/in/myarleque/" target="_blank" ><i class="fa fa-linkedin"></i></a>
-                                          <a href="https://twitter.com/myarleq" target="_blank" ><i class="fa fa-twitter"></i></a>                                          
+                                          <a href="https://twitter.com/myarleq" target="_blank" ><i class="fa fa-twitter"></i></a>
                                           <a href="https://www.instagram.com/myarlequ/" target="_blank" ><i class="fa fa-instagram"></i></a>
                                           <a href="https://www.facebook.com/yarlequ" target="_blank" ><i class="fa fa-facebook"></i></a>
                                        </div>
@@ -464,39 +523,128 @@
                               </div>
                            </div>
                         </div>
+                        <!-- Oscar Sequeiros -->
                         <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1000ms">
                            <div class="ts-speaker">
                               <div class="speaker-img">
-                                 <img class="img-fluid" src="images/speakers/eddu_melendez.jpeg" alt="Eddu Melendez">
-                                 <a href="#popup_8" class="view-speaker ts-image-popup" data-effect="mfp-zoom-in">
+                                 <img class="img-fluid" src="images/speakers/oscar_sequeiros.jpeg" alt="Oscar Sequeiros">
+                                 <a href="#popup_10" class="view-speaker ts-image-popup" data-effect="mfp-zoom-in">
                                     <i class="icon icon-plus"></i>
                                  </a>
                               </div>
                               <div class="ts-speaker-info">
-                                 <h3 class="ts-title"><a href="#">Meléndez Gonzales Eddú</a></h3>
+                                 <h3 class="ts-title"><a href="#">Oscar Sequeiros</a></h3>
                                  <p>
-                                    Meléndez Gonzales Eddú
+                                    Oscar Sequeiros
                                  </p>
                               </div>
                            </div>
-                           <div id="popup_8" class="container ts-speaker-popup mfp-hide">
+                           <div id="popup_10" class="container ts-speaker-popup mfp-hide">
                               <div class="row">
                                  <div class="col-lg-6">
                                     <div class="ts-speaker-popup-img">
-                                       <img src="images/speakers/eddu_melendez.jpeg" alt="Eddu Melendez">
+                                       <img src="images/speakers/oscar_sequeiros.jpeg" alt="Oscar Sequeiros">
                                     </div>
                                  </div>
                                  <div class="col-lg-6">
                                     <div class="ts-speaker-popup-content">
-                                       <h3 class="ts-title">Meléndez Gonzales Eddú</h3>
-                                       <span class="speakder-designation">Meléndez Gonzales Eddú</span>
-                                       <p>
-                                          Meléndez Gonzales Eddú
+                                       <h3 class="ts-title">Oscar Sequeiros</h3>
+                                       <span class="speakder-designation" style="color: #69D6F7; font-size: 18px"><b>
+                                          <span>Android Developer</span></b></span>
+                                       <p class="speakder-designation" style="text-align: justify;">
+                                          Android Dev entusiasta de aprender nuevas cosas.
+                                       </p>
+                                       <span class="speaker-session-info">
+                                          <h5 style="margin-top: 30px;">Kotlin Talk&nbsp;&nbsp;|&nbsp;&nbsp;Aula A803&nbsp;&nbsp;|&nbsp;&nbsp;12:40 PM - 01:30 PM</h5>
+                                          <p><b>Kontracts</b></p>
+                                       </span>
+                                       <p class="speakder-designation">
+                                          Breve explicación de Contracts en Kotlin, acuerdos con el compilador.
                                        </p>
                                        <div class="ts-speakers-social">
-                                          <a href="https://www.linkedin.com/in/eddumelendez/" target="_blank" ><i class="fa fa-linkedin"></i></a>
-                                          <a href="https://twitter.com/EdduMelendez" target="_blank" ><i class="fa fa-twitter"></i></a>                                          
-                                          <a href="https://www.facebook.com/emelendezg" target="_blank" ><i class="fa fa-facebook"></i></a>
+                                          <a href="https://www.linkedin.com/in/#/" target="_blank" ><i class="fa fa-linkedin"></i></a>
+                                          <a href="https://twitter.com/#" target="_blank" ><i class="fa fa-twitter"></i></a>
+                                          <a href="https://www.facebook.com/#" target="_blank" ><i class="fa fa-facebook"></i></a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Carlos Piñan -->
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1000ms">
+                           <div class="ts-speaker">
+                              <div class="speaker-img">
+                                 <img class="img-fluid" src="images/speakers/carlos_pinan.jpeg" alt="Carlos Piñan">
+                                 <a href="#popup_11" class="view-speaker ts-image-popup" data-effect="mfp-zoom-in">
+                                    <i class="icon icon-plus"></i>
+                                 </a>
+                              </div>
+                              <div class="ts-speaker-info">
+                                 <h3 class="ts-title"><a href="#">Carlos Piñan</a></h3>
+                                 <p>
+                                    Carlos Piñan
+                                 </p>
+                              </div>
+                           </div>
+                           <div id="popup_11" class="container ts-speaker-popup mfp-hide">
+                              <div class="row">
+                                 <div class="col-lg-6">
+                                    <div class="ts-speaker-popup-img">
+                                       <img src="images/speakers/carlos_pinan.jpeg" alt="Carlos Piñan">
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-6">
+                                    <div class="ts-speaker-popup-content">
+                                       <h3 class="ts-title">Carlos Piñan</h3>
+                                       <span class="speakder-designation">Carlos Piñan</span>
+                                       <p>
+                                          Carlos Piñan
+                                       </p>
+                                       <div class="ts-speakers-social">
+                                          <a href="https://www.linkedin.com/in/#/" target="_blank" ><i class="fa fa-linkedin"></i></a>
+                                          <a href="https://twitter.com/#" target="_blank" ><i class="fa fa-twitter"></i></a>
+                                          <a href="https://www.facebook.com/#" target="_blank" ><i class="fa fa-facebook"></i></a>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Geferson Pillaca -->
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1000ms">
+                           <div class="ts-speaker">
+                              <div class="speaker-img">
+                                 <img class="img-fluid" src="images/speakers/geferson_pillaca.jpeg" alt="Geferson Pillaca">
+                                 <a href="#popup_11" class="view-speaker ts-image-popup" data-effect="mfp-zoom-in">
+                                    <i class="icon icon-plus"></i>
+                                 </a>
+                              </div>
+                              <div class="ts-speaker-info">
+                                 <h3 class="ts-title"><a href="#">Geferson Pillaca</a></h3>
+                                 <p>
+                                    Geferson Pillaca
+                                 </p>
+                              </div>
+                           </div>
+                           <div id="popup_11" class="container ts-speaker-popup mfp-hide">
+                              <div class="row">
+                                 <div class="col-lg-6">
+                                    <div class="ts-speaker-popup-img">
+                                       <img src="images/speakers/geferson_pillaca.jpeg" alt="Geferson Pillaca">
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-6">
+                                    <div class="ts-speaker-popup-content">
+                                       <h3 class="ts-title">Geferson Pillaca</h3>
+                                       <span class="speakder-designation">Geferson Pillaca</span>
+                                       <p>
+                                          Geferson Pillaca
+                                       </p>
+                                       <div class="ts-speakers-social">
+                                          <a href="https://www.linkedin.com/in/#/" target="_blank" ><i class="fa fa-linkedin"></i></a>
+                                          <a href="https://twitter.com/#" target="_blank" ><i class="fa fa-twitter"></i></a>
+                                          <a href="https://www.facebook.com/#" target="_blank" ><i class="fa fa-facebook"></i></a>
                                        </div>
                                     </div>
                                  </div>
@@ -508,6 +656,7 @@
                </div>
             </section>
             <!-- ts speaker end-->
+            <a id="programa"></a>
             <section class="ts-schedule">
                <div class="container">
                   <div class="row">
@@ -520,14 +669,17 @@
                            <ul class="nav nav-tabs justify-content-center" role="tablist">
                               <li class="nav-item">
                                  <a class="active" title="Click Me" href="#date1" role="tab" data-toggle="tab">
-                                    <h3>Charlas</h3>
                                     <span>Auditorio</span>
                                  </a>
                               </li>
                               <li class="nav-item">
                                  <a class="" href="#date2" title="Click Me" role="tab" data-toggle="tab">
-                                    <h3>Talleres</h3>
-                                    <span>Salón 1</span>
+                                    <span>Salón 1 (A802)</span>
+                                 </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="" href="#date3" title="Click Me" role="tab" data-toggle="tab">
+                                    <span>Salón 2 (A803)</span>
                                  </a>
                               </li>
                            </ul>
@@ -538,6 +690,8 @@
                   <div class="row">
                      <div class="col-lg-12">
                         <div class="tab-content schedule-tabs">
+
+                           <!-- AUDITORIO -->
                            <div role="tabpanel" class="tab-pane active" id="date1">
                               <div class="schedule-listing launce">
                                  <div class="schedule-slot-time">
@@ -546,91 +700,93 @@
                                  <div class="schedule-slot-info">
                                     <div class="schedule-slot-info-content">
                                        <h3 class="schedule-slot-title">Presentación
-                                       <strong>@GDG Lima</strong>
                                        </h3>
-                                       <a href="#">
-                                          <img  src="images/gdg/gdglima2_logo.png" alt="GDG Lima">
-                                       </a>
                                     </div>
                                  </div>
                               </div>
                               <div class="schedule-listing">
                                  <div class="schedule-slot-time">
                                     <span>09:40 - 10:30 AM</span>
-                                    Charla
                                  </div>
                                  <div class="schedule-slot-info">
-                                    <a href="#">
-                                       <img class="schedule-slot-speakers" src="images/speakers/carlos-arboleda.jpg" alt="Some Name">
-                                    </a>
                                     <div class="schedule-slot-info-content">
                                        <h3 class="schedule-slot-title">Migrando a Gradle Kotlin DSL en Android
                                        <strong>Carlos Gabriel Ugaz Burga</strong>
                                        </h3>
-                                       <p></p>
+                                       <p>Se mostrará el archivo Gradle de una aplicación Android con muchas dependencias como Kotlin, android material, androidx, firebase, etc y como estas se pueden agrupar usando Kotlin DSL para tener una aplicación más ordenada.</p>
                                     </div>
                                  </div>
                               </div>
                               <div class="schedule-listing">
                                  <div class="schedule-slot-time">
                                     <span> 10:40 - 11:30 AM</span>
-                                    Charla
                                  </div>
                                  <div class="schedule-slot-info">
-                                    <a href="#">
-                                       <img class="schedule-slot-speakers" src="images/speakers/cristian-gomez.png" alt="">
-                                    </a>
                                     <div class="schedule-slot-info-content">
                                        <h3 class="schedule-slot-title">Understanding Kotlin Type System
                                        <strong>Bruno Aybar</strong>
                                        </h3>
-                                       <p></p>
+                                       <p>Muchas de las funcionalidades de Kotlin parecen arte de magia, es por eso que es un lenguaje de programación sumamente atractivo. Sin embargo, muchas de esas cosas son posibles gracias a su poderoso sistema de tipado. En esta charla, aprenderemos cómo funciona, y cómo podemos aprovecharlo al máximo.</p>
                                     </div>
                                  </div>
                               </div>
                               <div class="schedule-listing launce">
                                  <div class="schedule-slot-time">
-                                    <span>11:40 - 12:30 AM</span>
+                                    <span>11:40 - 12:30 PM</span>
                                  </div>
                                  <div class="schedule-slot-info">
                                     <div class="schedule-slot-info-content">
                                        <h3 class="schedule-slot-title">Android - WorkManager
                                        <strong>Eduardo Medina</strong>
                                        </h3>
-                                       <a href="#">
-                                          <img  src="images/gdg/gdglima2_logo.png" alt="GDG Lima">
-                                       </a>
                                     </div>
                                  </div>
                               </div>
                               <div class="schedule-listing">
                                  <div class="schedule-slot-time">
                                     <span>12:40 - 01:30 PM</span>
-                                    Charla
                                  </div>
                                  <div class="schedule-slot-info">
-                                    <a href="#">
-                                       <img class="schedule-slot-speakers" src="images/speakers/yuri-camacho.jpg" alt="">
-                                    </a>
                                     <div class="schedule-slot-info-content">
                                        <h3 class="schedule-slot-title">FP para no-Batos
                                        <strong>Cristian Fabian  Gomez Rojas</strong>
                                        </h3>
-                                       <p> </p>
+                                       <p>La programación funcional la vivimos día a día, ahora que tal si la combinamos con estrategias para aprovecharla de una manera mas inteligente. En esta charla veremos el uso de tipos, funciones y estructuras que nos permitirán elaborar un caso de uso completo, todo usando Kotlin!</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="schedule-listing">
+                                 <div class="schedule-slot-time">
+                                    <span>01:40 - 01:50 PM</span>
+                                 </div>
+                                 <div class="schedule-slot-info">
+                                    <div class="schedule-slot-info-content">
+                                       <h3 class="schedule-slot-title">Cierre de Evento</h3>
                                     </div>
                                  </div>
                               </div>
                            </div>
+
+
+
+                           <!-- A802 -->
                            <div role="tabpanel" class="tab-pane" id="date2">
+                              <div class="schedule-listing launce">
+                                 <div class="schedule-slot-time">
+                                    <span>09:00 - 09:30 AM</span>
+                                 </div>
+                                 <div class="schedule-slot-info">
+                                    <div class="schedule-slot-info-content">
+                                       <h3 class="schedule-slot-title">Presentación
+                                       </h3>
+                                    </div>
+                                 </div>
+                              </div>
                               <div class="schedule-listing">
                                  <div class="schedule-slot-time">
                                     <span>09:40 - 10:30 AM</span>
-                                    Taller 1
                                  </div>
                                  <div class="schedule-slot-info">
-                                    <a href="#">
-                                       <img class="schedule-slot-speakers" src="images/speakers/workshop.jpg" alt="Por Definir">
-                                    </a>
                                     <div class="schedule-slot-info-content">
                                        <h3 class="schedule-slot-title">Desarrollando mi backend con Kotlin
                                        <strong>Milton Yarleque</strong>
@@ -642,15 +798,75 @@
                               <div class="schedule-listing">
                                  <div class="schedule-slot-time">
                                     <span>10:40 - 11:30 AM</span>
-                                    Taller 2
                                  </div>
                                  <div class="schedule-slot-info">
-                                    <a href="#">
-                                       <img class="schedule-slot-speakers" src="images/speakers/workshop.jpg" alt="Por Definir">
-                                    </a>
                                     <div class="schedule-slot-info-content">
                                        <h3 class="schedule-slot-title">Kotlin y git: Cliente git en Kotlin
                                        <strong>Hansy Schmitt</strong>
+                                       </h3>
+                                       <p>En esta presentación veremos como la sintaxis de kotlin nos ayudará a crear rapidamente un cliente git semifuncional .</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="schedule-listing">
+                                 <div class="schedule-slot-time">
+                                    <span>11:40 - 12:30 PM AM</span>
+                                 </div>
+                                 <div class="schedule-slot-info">
+                                    <div class="schedule-slot-info-content">
+                                       <h3 class="schedule-slot-title">Inline Functions
+                                       <strong>Jose Flavio Quispe Irrazábal</strong>
+                                       </h3>
+                                       <p>Una base teórica de lo que son las funciones “inline” en Kotlin y repasando conceptos de expresiones lambda, funciones anónimas y como se ven las Inline Functions en bytecode decompilado.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="schedule-listing">
+                                 <div class="schedule-slot-time">
+                                    <span>12:40 - 01:30 PM</span>
+                                 </div>
+                                 <div class="schedule-slot-info">
+                                    <div class="schedule-slot-info-content">
+                                       <h3 class="schedule-slot-title">Consumer Driven Contract Testing con Spring Cloud Contract
+                                       <strong>Meléndez Gonzales Eddú</strong>
+                                       </h3>
+                                       <p>En plena era de microservicios, escribir pruebas puede sonar sencillo ya que nos hacemos responsables de solo un dominio. Pero, en el mundo real, las pruebas de los microservicios pueden ser duras. En esta sesión, veremos como CDC Testing nos ayuda a mantener nuestros servicios trabajando juntos. Estaremos explorando el proyecto Spring Cloud Contract.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="schedule-listing">
+                                 <div class="schedule-slot-time">
+                                    <span>01:40 - 01:50 PM</span>
+                                 </div>
+                                 <div class="schedule-slot-info">
+                                    <div class="schedule-slot-info-content">
+                                       <h3 class="schedule-slot-title">Cierre de Evento</h3>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <!-- A803 -->
+                           <div role="tabpanel" class="tab-pane" id="date3">
+                              <div class="schedule-listing launce">
+                                 <div class="schedule-slot-time">
+                                    <span>09:00 - 09:30 AM</span>
+                                 </div>
+                                 <div class="schedule-slot-info">
+                                    <div class="schedule-slot-info-content">
+                                       <h3 class="schedule-slot-title">Presentación
+                                       </h3>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="schedule-listing">
+                                 <div class="schedule-slot-time">
+                                    <span>09:40 - 10:30 AM</span>
+                                 </div>
+                                 <div class="schedule-slot-info">
+                                    <div class="schedule-slot-info-content">
+                                       <h3 class="schedule-slot-title"> Kotlin Coroutines
+                                       <strong>Geferson Pillaca</strong>
                                        </h3>
                                        <p></p>
                                     </div>
@@ -658,16 +874,12 @@
                               </div>
                               <div class="schedule-listing">
                                  <div class="schedule-slot-time">
-                                    <span>11:40 - 12:30 PM AM</span>
-                                    Taller 3
+                                    <span>10:40 - 12:30 AM</span>
                                  </div>
                                  <div class="schedule-slot-info">
-                                    <a href="#">
-                                       <img class="schedule-slot-speakers" src="images/speakers/workshop.jpg" alt="Por Definir">
-                                    </a>
                                     <div class="schedule-slot-info-content">
-                                       <h3 class="schedule-slot-title">Inline Functions
-                                       <strong>Jose Flavio Quispe Irrazábal</strong>
+                                       <h3 class="schedule-slot-title">CameraX con MLKit (Taller)
+                                       <strong>Carlos Piñan</strong>
                                        </h3>
                                        <p></p>
                                     </div>
@@ -676,21 +888,28 @@
                               <div class="schedule-listing">
                                  <div class="schedule-slot-time">
                                     <span>12:40 - 01:30 PM</span>
-                                    Taller 4
                                  </div>
                                  <div class="schedule-slot-info">
-                                    <a href="#">
-                                       <img class="schedule-slot-speakers" src="images/speakers/workshop.jpg" alt="Por Definir">
-                                    </a>
                                     <div class="schedule-slot-info-content">
-                                       <h3 class="schedule-slot-title">Consumer Driven Contract Testing con Spring Cloud Contract
-                                       <strong>Meléndez Gonzales Eddú</strong>
+                                       <h3 class="schedule-slot-title">KContracts
+                                       <strong>Oscar Sequeiros Serrano</strong>
                                        </h3>
-                                       <p></p>
+                                       <p>Breve explicación de Contracts en Kotlin, acuerdos con el compilador.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="schedule-listing">
+                                 <div class="schedule-slot-time">
+                                    <span>01:40 - 01:50 PM</span>
+                                 </div>
+                                 <div class="schedule-slot-info">
+                                    <div class="schedule-slot-info-content">
+                                       <h3 class="schedule-slot-title">Cierre de Evento</h3>
                                     </div>
                                  </div>
                               </div>
                            </div>
+                           
                         </div>
                      </div>
                   </div>
@@ -701,7 +920,7 @@
                <div class="container">
                   <div class="row">
                      <div class="col-lg-12">
-                        <h2 class="section-title white">
+                        <h2 class="section-title">
                         Apoyan
                         </h2>
                      </div>
@@ -710,20 +929,25 @@
                      <div class="col-lg-12">
                         <div class="sponsors-logo text-center">
                            <div class="row justify-content-center">
+                              <div class="col-md-3 d-flex align-items-center">
+                                 <p>
+                                    <img src="images/sponsors/avantica_logo.jpg" alt="Avantica" class="img-fluid">
+                                 </p>
+                              </div>
                               <div class="col-md-4 d-flex align-items-center">
                                  <p>
                                     <img src="images/sponsors/logo_utec.png" alt="Utec" class="img-fluid">
                                  </p>
                               </div>
-                              <!--<div class="col-md-3 d-flex align-items-center">
+                              <div class="col-md-3 d-flex align-items-center">
                                  <p>
-                                    <img src="images/sponsors/google.png" alt="Google" class="img-fluid">
+                                    <img src="images/sponsors/jetbrains_logo.png" alt="Jetbrains" class="img-fluid">
                                  </p>
-                              </div>-->
+                              </div>
                            </div>
-                           <div class="sponsor-btn text-center">
+                           <!-- <div class="sponsor-btn text-center">
                               <a href="https://wa.me/51940220992" class="btn">¡Quiero Apoyar!</a>
-                           </div>
+                           </div> -->
                         </div>
                      </div>
                   </div>
@@ -799,12 +1023,15 @@
                      <div class="ts-footer-newsletter">
                         <div class="ts-newsletter">
                            <div class="row">
-                              <div class="col-lg-4 mx-auto">
-                                 <div class="ts-newsletter-content">
+                              <div class="col-lg-12 mx-auto">
+                                 <div class="ts-newsletter-content mx-auto">
                                     <h2 class="section-title">
                                     <span>Organiza:</span>
                                     </h2>
-                                    <img src="images/gdg/gdglima_logo_xl.png" alt="GDG Lima" class="img-fluid">
+                                    <div class="form-group section-title">
+                                       <img src="images/gdg/gdg_lima_background_white.png" class="col-lg-4" alt="GDG Lima" class="img-fluid">
+                                       <img src="images/logos/android_dev_peru.png" class="col-lg-4 img-organizators" alt="Android Dev Perú" class="img-fluid">
+                                    </div>
                                  </div>
                               </div>
                            </div>
